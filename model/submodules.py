@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/10/27 09:16
 # @Author  : keevinzha
-# @File    : unet_parts.py
+# @File    : submodules.py
 import torch
 import torch.nn as nn
 import torch.nn.functional as F

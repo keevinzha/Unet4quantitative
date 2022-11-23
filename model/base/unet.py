@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/10/27 09:50
 # @Author  : keevinzha
-# @File    : unet_model.py
+# @File    : unet.py
 
-from .unet_parts import *
+from model.submodules import *
 
 class Unet(nn.Module):
     def __init__(self, n_channels, n_classes, bilinear=False):
